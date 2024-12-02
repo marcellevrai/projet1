@@ -28,7 +28,7 @@
             @enderror
         </div>
         <div class="mb-3">
-            <label for="modele" class="form-label">Modèle</label>
+            <label for="modele" class="form-label">Modèle-model-model</label>
             <input 
                 type="text" 
                 class="form-control @error('modele') is-invalid @enderror" 
