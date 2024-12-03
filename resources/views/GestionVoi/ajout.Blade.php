@@ -13,7 +13,7 @@
     <form method="POST" action="{{ route('ajouter-voiture.store') }}">
         @csrf
         <div class="mb-3">
-            <label for="marque" class="form-label">Marque-marque</label>
+            <label for="marque" class="form-label">Marque</label>
             <input 
                 type="text" 
                 class="form-control @error('marque') is-invalid @enderror" 
@@ -28,7 +28,7 @@
             @enderror
         </div>
         <div class="mb-3">
-            <label for="modele" class="form-label">Modèle-model-model</label>
+            <label for="modele" class="form-label">Modèle</label>
             <input 
                 type="text" 
                 class="form-control @error('modele') is-invalid @enderror" 
