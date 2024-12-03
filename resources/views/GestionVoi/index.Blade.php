@@ -8,7 +8,7 @@
             <div>
                 <h4> {{$voiture->id}} </h4>                   
             </div>     
-            <a href="" class="btn btn-secondary">lire plus</a>
+            <a href="" class="btn btn-secondary">Voir Plus</a>
            
        @endforeach 
        {{$voitures->links()}}       
